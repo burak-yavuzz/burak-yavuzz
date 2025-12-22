@@ -1,64 +1,62 @@
-<!-- ============ HERO ============ -->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=30&duration=2600&pause=700&center=true&vCenter=true&width=900&lines=Burak+%E2%80%94+Software+Engineer;Backend+%26+System+Architecture;Clean+Architecture+%7C+Security-first+%7C+Data-driven" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=336699&center=true&vCenter=true&width=900&lines=Burak+%3A%3A+Software+Engineer;Architecting+Robust+Backend+Systems;Exploring+Python+%26+Automation;C%23+%7C+.NET+%7C+React+%7C+SQL" alt="Typing SVG" />
 
-<p style="max-width:700px;">
-Backend ve sistem tasarımı merkezli çalışırım. Önceliğim; sürdürülebilir mimari,
-veri bütünlüğü, güvenlik ve performans odaklı mühendisliktir.
-</p>
+<br>
 
-<p>
-  <img src="https://komarev.com/ghpvc/?username=KULLANICI_ADIN&style=flat&label=Profile+Views" />
-  <img src="https://img.shields.io/badge/Focus-Backend%20%26%20Architecture-111111?style=flat" />
-  <img src="https://img.shields.io/badge/CMS-WordPress-111111?style=flat&logo=wordpress" />
-  <img src="https://img.shields.io/badge/Stack-.NET%20%7C%20SQL%20Server%20%7C%20React-111111?style=flat" />
-</p>
+<a href="https://github.com/KULLANICI_ADIN">
+  <img src="https://img.shields.io/badge/Role-Backend_Architect-2ea44f?style=for-the-badge&logo=codepen" />
+</a>
+<a href="https://github.com/KULLANICI_ADIN">
+  <img src="https://img.shields.io/badge/Focus-High_Performance_%26_Security-007ec6?style=for-the-badge&logo=serverless" />
+</a>
+<a href="https://github.com/KULLANICI_ADIN">
+  <img src="https://img.shields.io/badge/Status-Building_Next_Gen_Apps-ff69b4?style=for-the-badge&logo=codesandbox" />
+</a>
+
+</div>
+
+<br>
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="25" height="25" /> System Architecture & Engineering
+
+Backend sistemleri tasarlarken **kaos yerine düzeni**, **tahmin yerine veriyi** tercih ederim. Ana odağım .NET ekosistemi olsa da, Python ve modern araçlarla otomasyon süreçlerini geliştirmek tutkularımdan biri.
+
+| ⚡ Mühendislik Prensibim | 🛡️ Güvenlik Yaklaşımım | 🚀 Gelişim Hedefim |
+| :--- | :--- | :--- |
+| **Deterministik Kod:** Sürpriz yok, temiz mimari var. | **Security-First:** Kimlik doğrulama sistemin omurgasıdır. | **Polyglot Mindset:** C# gücü + Python esnekliği. |
+
+---
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Tools" width="25" height="25" /> Technologies & Tools
+
+<div align="center">
+
+| **Core & Backend** | **Languages & Scripts** | **Frontend & CMS** | **DevOps & DB** |
+| :---: | :---: | :---: | :---: |
+| <img src="https://skillicons.dev/icons?i=dotnet,cs,visualstudio" /> | <img src="https://skillicons.dev/icons?i=python,bash,powershell" /> | <img src="https://skillicons.dev/icons?i=react,js,wordpress,html,css" /> | <img src="https://skillicons.dev/icons?i=sqlserver,docker,git,github" /> |
 
 </div>
 
 ---
 
-<!-- ============ STACK ICONS (PREMIUM GRID) ============ -->
 <div align="center">
 
-**Core Stack**
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart" width="25" height="25" /> Analytics
 
-[![My Skills](https://skillicons.dev/icons?i=cs,dotnet,visualstudio,sqlserver,react,tailwind,bootstrap,wordpress&perline=8)](#)
-
-**Web & Tooling**
-
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,git,github,docker&perline=8)](#)
+<a href="https://github.com/KULLANICI_ADIN">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=KULLANICI_ADIN&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=F1F1F1" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KULLANICI_ADIN&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF" />
+</a>
 
 </div>
 
 ---
 
-<!-- ============ SNAPSHOT (MINIMAL & STRONG) ============ -->
-### Engineering Snapshot
-- Mimari kararlar geliştirme sürecinin merkezindedir.
-- Kimlik doğrulama, yetkilendirme ve veri modeli sistemin omurgasıdır.
-- Kod; okunabilir, sürdürülebilir ve deterministik davranmalıdır.
-- “Hızlı yap, sonra düzelt” yaklaşımını benimsemem.
-
----
-
-<!-- ============ CAPABILITY MAP (CLEAN & BALANCED) ============ -->
-### Capability Map
-
-| Domain                              | Level |
-|-------------------------------------|-------|
-| Backend & Application Architecture  | <img src="https://geps.dev/progress/90" /> |
-| SQL Server & Data Modeling          | <img src="https://geps.dev/progress/85" /> |
-| Security (AuthN / AuthZ)            | <img src="https://geps.dev/progress/85" /> |
-| System Tools & Automation           | <img src="https://geps.dev/progress/80" /> |
-| Frontend Integration (React / UI)   | <img src="https://geps.dev/progress/70" /> |
-| WordPress (Custom Themes & Logic)   | <img src="https://geps.dev/progress/85" /> |
-| DevOps Fundamentals                 | <img src="https://geps.dev/progress/60" /> |
-
----
-
-<!-- ============ CONTACT (CLEAN FOOTER) ============ -->
 <div align="center">
-  <sub>GitHub · @burak-yavuzz</sub>
+  <br>
+  <samp>
+    Developed with ❤️ by <a href="https://github.com/KULLANICI_ADIN"><b>Burak</b></a> using <b>.NET</b> logic & <b>Python</b> creativity.
+  </samp>
+  <br><br>
 </div>
