@@ -55,6 +55,6 @@ Süreç yönetiminde kullanılan standartlar ve mimari prensipler.
 * **Tasarım Kalıpları:** MVC (Model-View-Controller), Repository Pattern, Unit of Work
 * **Servis Yönetimi:** Restful Web API, Microservices, Authentication (JWT/OAuth2)
 
-<div align="right">
-<sub><i>Software Engineering Portfolio • 2025</i></sub>
+<div align="center">
+  <sub>GitHub · @burak-yavuzz</sub>
 </div>
