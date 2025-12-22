@@ -1,55 +1,85 @@
-<h1 align="center">Burak</h1>
-<h3 align="center">Software Engineer · Backend & System Architecture</h3>
+<!-- ============ HERO ============ -->
+<div align="center">
 
-<p align="center">
-Clean architecture · Scalable systems · Engineering discipline
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=2600&pause=650&center=true&vCenter=true&width=820&lines=Burak+%E2%80%94+Software+Engineer;Backend+%26+System+Architecture;Clean+Architecture+%7C+Security-first+%7C+Data-driven" alt="Typing SVG" />
+
+<p>
+Backend ve sistem tasarımı merkezli çalışırım. Önceliğim: sürdürülebilir mimari, veri bütünlüğü, güvenlik ve performans.
 </p>
 
----
-
-Backend ve sistem tasarımı merkezli çalışan bir yazılım mühendisiyim.  
-Odak noktam; **uzun vadeli sürdürülebilirlik**, **veri bütünlüğü**, **güvenlik** ve **bakımı düşük maliyetli mimariler** üretmektir.
-
-Frontend teknolojilerini ihtiyaç doğrultusunda etkin şekilde kullanırım; ancak mühendislik yaklaşımım **backend davranışı, veri modeli ve sistem mimarisi** etrafında şekillenir.  
-Açık tasarım, okunabilirlik ve deterministik sistem davranışı benim için önceliklidir.
-
----
-
-**Teknik Yetkinlikler (Toplu ve Net):**
-
-C#, ASP.NET Core (MVC), Entity Framework Core, SQL Server (MSSQL), authentication & authorization sistemleri, session ve rol bazlı erişim kontrolü, veri modelleme, ilişkisel veritabanı tasarımı, RESTful servisler, React (Vite), Tailwind CSS, Bootstrap, modern UI/UX prensipleri, Git & GitHub, temel Docker kullanımı, CLI tabanlı geliştirici araçları, build ve environment yönetimi, modüler ve katmanlı sistem tasarımı.
-
----
-
-**Yetkinlik Seviyesi (Gerçekçi Değerlendirme):**
-
-Backend & Application Architecture     ██████████░ 90%  
-Database Design & Data Modeling        █████████░░ 85%  
-Security & Authorization               █████████░░ 85%  
-System Tools & Automation              ████████░░░ 80%  
-Frontend Integration                   ███████░░░░ 70%  
-DevOps Fundamentals                    ██████░░░░░ 60%
-
----
-
-**Çalışma Prensipleri:**
-
-Clean Architecture, Separation of Concerns, SOLID prensipleri, security-first yaklaşım, açık ve sade tasarım kararları, minimal ama anlamlı soyutlama, performans farkındalığı, ölçeklenebilirlik ve uzun vadeli bakım maliyetini düşüren mühendislik yaklaşımı.
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KULLANICI_ADIN&show_icons=true&hide_border=true" />
+<p>
+  <img src="https://komarev.com/ghpvc/?username=KULLANICI_ADIN&style=flat&label=Profile+Views" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/Focus-Backend%20%26%20Architecture-111111?style=flat" alt="Focus" />
+  <img src="https://img.shields.io/badge/Stack-.NET%20%7C%20SQL%20Server%20%7C%20React-111111?style=flat" alt="Stack" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KULLANICI_ADIN&layout=compact&hide_border=true" />
-</p>
+</div>
 
 ---
 
-GitHub → https://github.com/KULLANICI_ADIN
+<!-- ============ STACK ICONS (CLEAN) ============ -->
+<div align="center">
 
-<p align="center">
-<sub>Engineering first. Everything else is noise.</sub>
-</p>
+[![My Skills](https://skillicons.dev/icons?i=cs,dotnet,visualstudio,sqlserver,react,tailwind,bootstrap,js,html,css,git,github,docker&perline=13)](#)
+
+</div>
+
+---
+
+<!-- ============ SNAPSHOT (NO NOISE) ============ -->
+### Engineering Snapshot
+- Architecture-first yaklaşım, “sonradan toparlarız” kültürüne karşıyım.
+- Yetkilendirme / kimlik doğrulama ve veri modeli; sistemin omurgasıdır.
+- Okunabilirlik, sürdürülebilirlik ve deterministik davranış: standarttır.
+
+---
+
+<!-- ============ SKILL BARS (CLEAN SVG) ============ -->
+### Capability Map
+| Domain | Level |
+|---|---|
+| Backend & Application Architecture | <img src="https://geps.dev/progress/90" alt="90%" /> |
+| SQL Server & Data Modeling | <img src="https://geps.dev/progress/85" alt="85%" /> |
+| Security (AuthN/AuthZ) | <img src="https://geps.dev/progress/85" alt="85%" /> |
+| System Tools & Automation | <img src="https://geps.dev/progress/80" alt="80%" /> |
+| Frontend Integration (React/UI) | <img src="https://geps.dev/progress/70" alt="70%" /> |
+| DevOps Fundamentals | <img src="https://geps.dev/progress/60" alt="60%" /> |
+
+---
+
+<!-- ============ METRICS PANEL (TOP TIER) ============ -->
+### Metrics
+<div align="center">
+  <img src="https://raw.githubusercontent.com/KULLANICI_ADIN/KULLANICI_ADIN/main/github-metrics.svg" alt="Metrics" />
+</div>
+
+---
+
+<!-- ============ STATS (MINIMAL) ============ -->
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=KULLANICI_ADIN&show_icons=true&hide_border=true&rank_icon=github" alt="stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KULLANICI_ADIN&layout=compact&hide_border=true" alt="top langs" />
+
+</div>
+
+---
+
+<!-- ============ TROPHY (OPTIONAL, CLEAN) ============ -->
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=KULLANICI_ADIN&no-frame=true&row=1&column=6" alt="trophy" />
+</div>
+
+---
+
+<!-- ============ SNAKE (AUTO-GENERATED) ============ -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/KULLANICI_ADIN/KULLANICI_ADIN/output/github-contribution-grid-snake.svg" alt="snake" />
+</div>
+
+---
+
+<!-- ============ CONTACT (SINGLE LINE, NO DUPES) ============ -->
+<div align="center">
+  <sub>Contact: GitHub @KULLANICI_ADIN</sub>
+</div>
