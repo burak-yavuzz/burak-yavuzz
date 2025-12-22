@@ -36,7 +36,7 @@ Aktif olarak kullanılan araçlar ve entegrasyonlar.
 **Altyapı & Veri**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![MSSQL](https://img.shields.io/badge/MSSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
 
 <div align="center">
