@@ -30,6 +30,7 @@ Aktif olarak kullanılan araçlar ve entegrasyonlar.
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/WordPress-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 **Altyapı & Veri**
@@ -37,14 +38,6 @@ Aktif olarak kullanılan araçlar ve entegrasyonlar.
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
----
-
-## IV. AKTIF PROJELER VE ARAŞTIRMALAR
-| PROJE | AÇIKLAMA | DURUM |
-| :--- | :--- | :--- |
-| **Core Security Suite** | Dosya ve şifreleme güvenliği üzerine Python tabanlı CLI aracı. | *Geliştirme Aşamasında* |
-| **Avalonia FTP Client** | Modern ve yüksek performanslı masaüstü FTP istemcisi. | *Beta* |
-| **Microservice Patterns** | Dağıtık mimariler üzerine vaka çalışmaları ve örnekler. | *Tamamlandı* |
 
 <div align="center">
   <sub>Yazılım Mühendisliği Portfolyosu • 2025</sub>
