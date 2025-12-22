@@ -55,15 +55,6 @@ Süreç yönetiminde kullanılan standartlar ve mimari prensipler.
 * **Tasarım Kalıpları:** MVC (Model-View-Controller), Repository Pattern, Unit of Work
 * **Servis Yönetimi:** Restful Web API, Microservices, Authentication (JWT/OAuth2)
 
----
-
-## V. ANALITIK VERILER VE PERFORMANS
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=BURAKYAVUZ_KULLANICI_ADIN&show_icons=true&theme=transparent&hide_border=true&title_color=1a1a1a&text_color=444&icon_color=1a1a1a" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BURAKYAVUZ_KULLANICI_ADIN&layout=compact&theme=transparent&hide_border=true&title_color=1a1a1a&text_color=444" height="165" />
-</div>
-
----
 <div align="right">
 <sub><i>Software Engineering Portfolio • 2025</i></sub>
 </div>
