@@ -47,37 +47,6 @@ Backend ve sistem tasarımı merkezli çalışırım. Önceliğim: sürdürüleb
 
 ---
 
-<!-- ============ METRICS PANEL (TOP TIER) ============ -->
-### Metrics
-<div align="center">
-  <img src="https://raw.githubusercontent.com/KULLANICI_ADIN/KULLANICI_ADIN/main/github-metrics.svg" alt="Metrics" />
-</div>
-
----
-
-<!-- ============ STATS (MINIMAL) ============ -->
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=KULLANICI_ADIN&show_icons=true&hide_border=true&rank_icon=github" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KULLANICI_ADIN&layout=compact&hide_border=true" alt="top langs" />
-
-</div>
-
----
-
-<!-- ============ TROPHY (OPTIONAL, CLEAN) ============ -->
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=KULLANICI_ADIN&no-frame=true&row=1&column=6" alt="trophy" />
-</div>
-
----
-
-<!-- ============ SNAKE (AUTO-GENERATED) ============ -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/KULLANICI_ADIN/KULLANICI_ADIN/output/github-contribution-grid-snake.svg" alt="snake" />
-</div>
-
----
 
 <!-- ============ CONTACT (SINGLE LINE, NO DUPES) ============ -->
 <div align="center">
