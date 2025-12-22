@@ -59,6 +59,4 @@ Süreç yönetiminde kullanılan standartlar ve mimari prensipler.
   <a href="https://github.com/burak-yavuzz">
     <img src="https://img.shields.io/badge/GitHub-burak--yavuzz-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <br>
-  <sub>Digital Signature • Built with Precision • 2025</sub>
 </p>
