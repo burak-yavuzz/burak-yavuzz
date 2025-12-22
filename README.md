@@ -1,220 +1,174 @@
 <!-- =========================================================
-  PROFILE CONFIG (tek yerden yönetim)
-  - Username: KULLANICI_ADIN
-  - Name    : Burak Yavuz
-  - Title   : Backend Architect & Software Engineer
-  - Focus   : .NET • Clean Architecture • Secure Systems • Automation
-  - Location: TR / Remote (opsiyonel)
+  SKILL DASHBOARD (clean, extendable, no JS)
+  - UX: click a pill -> jump to the selected skill card
+  - Edit: add/remove a skill by duplicating ONE <details> block
+  - Percent -> BAR width = 720 * (PERCENT/100)
 ========================================================= -->
 
 <div align="center">
 
-<!-- ======= HERO (INLINE SVG BANNER) ======= -->
-<svg width="920" height="190" viewBox="0 0 920 190" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Burak Yavuz — Backend Architect & Software Engineer">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d1117"/>
-      <stop offset="1" stop-color="#0b1220"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#79c0ff"/>
-      <stop offset="1" stop-color="#a371f7"/>
-    </linearGradient>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#161b22" stroke-width="1"/>
-    </pattern>
-    <filter id="soft" x="-20%" y="-40%" width="140%" height="180%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"/>
-      <feColorMatrix in="blur" type="matrix"
-        values="1 0 0 0 0
-                0 1 0 0 0
-                0 0 1 0 0
-                0 0 0 0.25 0" result="shadow"/>
-      <feMerge>
-        <feMergeNode in="shadow"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
+<!-- ======= SECTION HEADER (minimal) ======= -->
+<h2 style="margin-bottom: 6px;">▌ Skill Dashboard</h2>
+<p style="margin-top: 0; max-width: 820px; color: #8b949e;">
+  Tek panel, tek standart: seç → ilgili uzmanlık kartına git.
+</p>
 
-  <rect width="920" height="190" rx="18" fill="url(#bg)"/>
-  <rect width="920" height="190" rx="18" fill="url(#grid)" opacity="0.9"/>
-
-  <!-- Accent glow -->
-  <circle cx="140" cy="70" r="58" fill="#79c0ff" opacity="0.12" filter="url(#soft)"/>
-  <circle cx="230" cy="120" r="70" fill="#a371f7" opacity="0.10" filter="url(#soft)"/>
-
-  <!-- Title -->
-  <text x="48" y="78" fill="#e6edf3" font-size="34" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-weight="750">
-    BURAK YAVUZ
-  </text>
-  <text x="48" y="110" fill="#8b949e" font-size="15" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-weight="600" letter-spacing="0.8">
-    BACKEND ARCHITECT • SOFTWARE ENGINEER
-  </text>
-
-  <!-- Focus chips -->
-  <g transform="translate(48, 128)">
-    <rect x="0" y="0" rx="10" ry="10" width="180" height="26" fill="#111827" stroke="#30363d"/>
-    <text x="12" y="18" fill="#c9d1d9" font-size="12" font-family="ui-sans-serif, system-ui" font-weight="650">.NET Ecosystem</text>
-
-    <rect x="190" y="0" rx="10" ry="10" width="210" height="26" fill="#111827" stroke="#30363d"/>
-    <text x="202" y="18" fill="#c9d1d9" font-size="12" font-family="ui-sans-serif, system-ui" font-weight="650">Clean Architecture</text>
-
-    <rect x="410" y="0" rx="10" ry="10" width="160" height="26" fill="#111827" stroke="#30363d"/>
-    <text x="422" y="18" fill="#c9d1d9" font-size="12" font-family="ui-sans-serif, system-ui" font-weight="650">Security-first</text>
-
-    <rect x="580" y="0" rx="10" ry="10" width="210" height="26" fill="#111827" stroke="#30363d"/>
-    <text x="592" y="18" fill="#c9d1d9" font-size="12" font-family="ui-sans-serif, system-ui" font-weight="650">Automation & Tooling</text>
-  </g>
-
-  <!-- Accent line -->
-  <rect x="48" y="160" width="824" height="3" rx="2" fill="url(#accent)" opacity="0.9"/>
-</svg>
-
-<br/>
-
-<!-- ======= STATUS BADGES (STATIC) ======= -->
-<img alt="Focus" src="https://img.shields.io/badge/FOCUS-Backend%20%26%20Architecture-79c0ff?style=flat&labelColor=0d1117" />
-<img alt=".NET" src="https://img.shields.io/badge/PRIMARY-.NET%20%2F%20C%23-a371f7?style=flat&labelColor=0d1117" />
-<img alt="Automation" src="https://img.shields.io/badge/SECONDARY-Python%20Automation-f2cc60?style=flat&labelColor=0d1117" />
-<img alt="Security" src="https://img.shields.io/badge/PRINCIPLE-Security--first-e5534b?style=flat&labelColor=0d1117" />
+<!-- ======= SELECTOR PILLS (click -> anchor) ======= -->
+<p>
+  <a href="#skill-dotnet"><img alt=".NET / C#" src="https://img.shields.io/badge/.NET%20%2F%20C%23-95%25-7c3aed?style=for-the-badge&labelColor=0d1117" /></a>
+  <a href="#skill-arch"><img alt="System Architecture" src="https://img.shields.io/badge/Architecture-90%25-1f6feb?style=for-the-badge&labelColor=0d1117" /></a>
+  <a href="#skill-sql"><img alt="SQL / Modeling" src="https://img.shields.io/badge/SQL%20%2F%20Modeling-85%25-d29922?style=for-the-badge&labelColor=0d1117" /></a>
+  <a href="#skill-py"><img alt="Python / Automation" src="https://img.shields.io/badge/Python%20Automation-75%25-2ea043?style=for-the-badge&labelColor=0d1117" /></a>
+  <a href="#skill-fe"><img alt="Frontend Integration" src="https://img.shields.io/badge/Frontend%20Integration-60%25-e5534b?style=for-the-badge&labelColor=0d1117" /></a>
+</p>
 
 </div>
 
----
-
-<table width="100%">
-<tr>
-<td width="56%" valign="top">
-
-## ▌ Engineering Approach
-
-Kurumsal ölçekte sistem tasarımında “çalışıyor” kriteri **minimum bar**.  
-Benim standardım: **ölçülebilir performans**, **denetlenebilir güvenlik**, **operasyonel sadelik**.
-
-- **Security by Design:** güvenlik katman değil, temeldir  
-- **Data Integrity:** tutarlılık hızdan daha pahalıdır  
-- **Automation:** insan hatası = üretim riski; süreç otomasyonu şarttır  
-- **Explicitness:** magic değil, izlenebilir akış
-
-</td>
-<td width="44%" valign="top">
-
-## ▌ Tech Ecosystem
-
-**Languages**
-<br/>
-<img src="https://skillicons.dev/icons?i=cs,python,js&theme=dark" />
-
-**Backend / Data**
-<br/>
-<img src="https://skillicons.dev/icons?i=dotnet,sqlserver,azure&theme=dark" />
-
-**Ops / Tooling**
-<br/>
-<img src="https://skillicons.dev/icons?i=linux,bash,powershell,docker,git,github&theme=dark" />
-
-**CMS / Platforms**
-<br/>
-<img src="https://skillicons.dev/icons?i=wordpress&theme=dark" />
-
-</td>
-</tr>
-</table>
-
----
-
-## ▌ Competency Matrix (Code-driven Progress Bars)
-
-<!--
+<!-- ======= SKILL CARDS (one per skill) =======
 HOW TO EDIT:
-- width="360" sabit.
-- Doluluk = 360 * (PERCENT/100)
-  Örn: 92% => 331.2 ≈ 331
-- Renkleri ACCENT ile değiştir.
--->
+- id: skill-xxx (must match pill href)
+- PERCENT: change the number in title and aria-label
+- BAR WIDTH: 720 * (PERCENT/100)
+  Examples:
+  95% => 684
+  90% => 648
+  85% => 612
+  75% => 540
+  60% => 432
+============================================ -->
 
-### .NET / C# Core — 95%
-<svg width="720" height="16" viewBox="0 0 720 16" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=".NET / C# Core 95%">
-  <defs>
-    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#7c3aed"/>
-      <stop offset="1" stop-color="#a371f7"/>
-    </linearGradient>
-  </defs>
-  <rect x="0" y="1" width="720" height="14" rx="7" fill="#161b22"/>
-  <rect x="0" y="1" width="684" height="14" rx="7" fill="url(#g1)"/>
-  <rect x="0.5" y="1.5" width="719" height="13" rx="6.5" fill="none" stroke="#30363d"/>
-</svg>
+<!-- .NET -->
+<details id="skill-dotnet" open>
+  <summary><b>.NET / C# Core — 95%</b> <span style="color:#8b949e;">(backend fundamentals, clean architecture)</span></summary>
+  <br/>
+  <svg width="920" height="64" viewBox="0 0 920 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=".NET / C# Core 95%">
+    <defs>
+      <linearGradient id="g-dotnet" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#7c3aed"/>
+        <stop offset="1" stop-color="#a371f7"/>
+      </linearGradient>
+    </defs>
 
-### System Architecture — 90%
-<svg width="720" height="16" viewBox="0 0 720 16" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="System Architecture 90%">
-  <defs>
-    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#1f6feb"/>
-      <stop offset="1" stop-color="#79c0ff"/>
-    </linearGradient>
-  </defs>
-  <rect x="0" y="1" width="720" height="14" rx="7" fill="#161b22"/>
-  <rect x="0" y="1" width="648" height="14" rx="7" fill="url(#g2)"/>
-  <rect x="0.5" y="1.5" width="719" height="13" rx="6.5" fill="none" stroke="#30363d"/>
-</svg>
+    <!-- Card -->
+    <rect x="0" y="0" width="920" height="64" rx="14" fill="#0d1117" stroke="#30363d"/>
+    <!-- Title -->
+    <text x="22" y="24" fill="#e6edf3" font-size="14" font-family="ui-sans-serif, system-ui" font-weight="700">Scope</text>
+    <text x="22" y="44" fill="#8b949e" font-size="12" font-family="ui-sans-serif, system-ui" font-weight="600">
+      ASP.NET Core • EF Core • Identity/AuthZ • API Design • Performance & Diagnostics
+    </text>
 
-### SQL / Data Modeling — 85%
-<svg width="720" height="16" viewBox="0 0 720 16" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SQL / Data Modeling 85%">
-  <defs>
-    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#d29922"/>
-      <stop offset="1" stop-color="#f2cc60"/>
-    </linearGradient>
-  </defs>
-  <rect x="0" y="1" width="720" height="14" rx="7" fill="#161b22"/>
-  <rect x="0" y="1" width="612" height="14" rx="7" fill="url(#g3)"/>
-  <rect x="0.5" y="1.5" width="719" height="13" rx="6.5" fill="none" stroke="#30363d"/>
-</svg>
+    <!-- Bar -->
+    <rect x="650" y="22" width="240" height="20" rx="10" fill="#161b22" stroke="#30363d"/>
+    <rect x="650" y="22" width="228" height="20" rx="10" fill="url(#g-dotnet)"/>
+    <text x="888" y="36" fill="#c9d1d9" font-size="11" font-family="ui-sans-serif, system-ui" font-weight="800" text-anchor="end">95%</text>
+  </svg>
+  <br/>
+</details>
 
-### Python / Automation — 75%
-<svg width="720" height="16" viewBox="0 0 720 16" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Python / Automation 75%">
-  <defs>
-    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2ea043"/>
-      <stop offset="1" stop-color="#7ee787"/>
-    </linearGradient>
-  </defs>
-  <rect x="0" y="1" width="720" height="14" rx="7" fill="#161b22"/>
-  <rect x="0" y="1" width="540" height="14" rx="7" fill="url(#g4)"/>
-  <rect x="0.5" y="1.5" width="719" height="13" rx="6.5" fill="none" stroke="#30363d"/>
-</svg>
+<!-- Architecture -->
+<details id="skill-arch">
+  <summary><b>System Architecture — 90%</b> <span style="color:#8b949e;">(design, scalability, operability)</span></summary>
+  <br/>
+  <svg width="920" height="64" viewBox="0 0 920 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="System Architecture 90%">
+    <defs>
+      <linearGradient id="g-arch" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#1f6feb"/>
+        <stop offset="1" stop-color="#79c0ff"/>
+      </linearGradient>
+    </defs>
 
-### Frontend Integration — 60%
-<svg width="720" height="16" viewBox="0 0 720 16" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Frontend Integration 60%">
-  <defs>
-    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#e5534b"/>
-      <stop offset="1" stop-color="#ffa198"/>
-    </linearGradient>
-  </defs>
-  <rect x="0" y="1" width="720" height="14" rx="7" fill="#161b22"/>
-  <rect x="0" y="1" width="432" height="14" rx="7" fill="url(#g5)"/>
-  <rect x="0.5" y="1.5" width="719" height="13" rx="6.5" fill="none" stroke="#30363d"/>
-</svg>
+    <rect x="0" y="0" width="920" height="64" rx="14" fill="#0d1117" stroke="#30363d"/>
+    <text x="22" y="24" fill="#e6edf3" font-size="14" font-family="ui-sans-serif, system-ui" font-weight="700">Scope</text>
+    <text x="22" y="44" fill="#8b949e" font-size="12" font-family="ui-sans-serif, system-ui" font-weight="600">
+      Clean Architecture • DDD-ish Boundaries • CQRS (where it pays) • Observability • Failure Modes
+    </text>
 
----
+    <rect x="650" y="22" width="240" height="20" rx="10" fill="#161b22" stroke="#30363d"/>
+    <rect x="650" y="22" width="216" height="20" rx="10" fill="url(#g-arch)"/>
+    <text x="888" y="36" fill="#c9d1d9" font-size="11" font-family="ui-sans-serif, system-ui" font-weight="800" text-anchor="end">90%</text>
+  </svg>
+  <br/>
+</details>
 
-## ▌ Known Tools / Frameworks (clean list)
+<!-- SQL -->
+<details id="skill-sql">
+  <summary><b>SQL / Data Modeling — 85%</b> <span style="color:#8b949e;">(integrity, constraints, migrations)</span></summary>
+  <br/>
+  <svg width="920" height="64" viewBox="0 0 920 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SQL / Data Modeling 85%">
+    <defs>
+      <linearGradient id="g-sql" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#d29922"/>
+        <stop offset="1" stop-color="#f2cc60"/>
+      </linearGradient>
+    </defs>
 
-- **Backend:** ASP.NET Core, EF Core, Identity/AuthN/AuthZ, REST, background jobs
-- **Data:** SQL Server, relational modeling, constraints, migrations
-- **Automation:** Python scripting, Bash/PowerShell, Linux tooling
-- **DevOps:** Docker, Git/GitHub, Azure basics
-- **CMS:** WordPress (integration / customization)
+    <rect x="0" y="0" width="920" height="64" rx="14" fill="#0d1117" stroke="#30363d"/>
+    <text x="22" y="24" fill="#e6edf3" font-size="14" font-family="ui-sans-serif, system-ui" font-weight="700">Scope</text>
+    <text x="22" y="44" fill="#8b949e" font-size="12" font-family="ui-sans-serif, system-ui" font-weight="600">
+      Relational Modeling • Index Strategy • Constraints • Query Tuning • EF Core Migrations
+    </text>
 
----
+    <rect x="650" y="22" width="240" height="20" rx="10" fill="#161b22" stroke="#30363d"/>
+    <rect x="650" y="22" width="204" height="20" rx="10" fill="url(#g-sql)"/>
+    <text x="888" y="36" fill="#c9d1d9" font-size="11" font-family="ui-sans-serif, system-ui" font-weight="800" text-anchor="end">85%</text>
+  </svg>
+  <br/>
+</details>
 
+<!-- Python -->
+<details id="skill-py">
+  <summary><b>Python / Automation — 75%</b> <span style="color:#8b949e;">(tooling, scripts, pipelines)</span></summary>
+  <br/>
+  <svg width="920" height="64" viewBox="0 0 920 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Python / Automation 75%">
+    <defs>
+      <linearGradient id="g-py" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#2ea043"/>
+        <stop offset="1" stop-color="#7ee787"/>
+      </linearGradient>
+    </defs>
+
+    <rect x="0" y="0" width="920" height="64" rx="14" fill="#0d1117" stroke="#30363d"/>
+    <text x="22" y="24" fill="#e6edf3" font-size="14" font-family="ui-sans-serif, system-ui" font-weight="700">Scope</text>
+    <text x="22" y="44" fill="#8b949e" font-size="12" font-family="ui-sans-serif, system-ui" font-weight="600">
+      Scripting • Automation • CLI Tooling • Data Ops Helpers • System Glue
+    </text>
+
+    <rect x="650" y="22" width="240" height="20" rx="10" fill="#161b22" stroke="#30363d"/>
+    <rect x="650" y="22" width="180" height="20" rx="10" fill="url(#g-py)"/>
+    <text x="888" y="36" fill="#c9d1d9" font-size="11" font-family="ui-sans-serif, system-ui" font-weight="800" text-anchor="end">75%</text>
+  </svg>
+  <br/>
+</details>
+
+<!-- Frontend -->
+<details id="skill-fe">
+  <summary><b>Frontend Integration — 60%</b> <span style="color:#8b949e;">(integration, not “UI artist”)</span></summary>
+  <br/>
+  <svg width="920" height="64" viewBox="0 0 920 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Frontend Integration 60%">
+    <defs>
+      <linearGradient id="g-fe" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#e5534b"/>
+        <stop offset="1" stop-color="#ffa198"/>
+      </linearGradient>
+    </defs>
+
+    <rect x="0" y="0" width="920" height="64" rx="14" fill="#0d1117" stroke="#30363d"/>
+    <text x="22" y="24" fill="#e6edf3" font-size="14" font-family="ui-sans-serif, system-ui" font-weight="700">Scope</text>
+    <text x="22" y="44" fill="#8b949e" font-size="12" font-family="ui-sans-serif, system-ui" font-weight="600">
+      API Integration • Auth Flows • Minimal UI • Tooling Pages • Dashboard Wiring
+    </text>
+
+    <rect x="650" y="22" width="240" height="20" rx="10" fill="#161b22" stroke="#30363d"/>
+    <rect x="650" y="22" width="144" height="20" rx="10" fill="url(#g-fe)"/>
+    <text x="888" y="36" fill="#c9d1d9" font-size="11" font-family="ui-sans-serif, system-ui" font-weight="800" text-anchor="end">60%</text>
+  </svg>
+  <br/>
+</details>
+
+<!-- Optional: back-to-selector -->
 <div align="center">
-
-<a href="https://github.com/KULLANICI_ADIN">
-  <img alt="Connect" src="https://img.shields.io/badge/Connect-GitHub-2ea043?style=for-the-badge&labelColor=0d1117&logo=github" />
-</a>
-
+  <a href="#skill-dashboard-top"></a>
+  <p style="margin-top: 10px;">
+    <a href="#skill-dotnet">↑ Back to Skills</a>
+  </p>
 </div>
