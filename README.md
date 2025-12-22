@@ -1,101 +1,109 @@
 <div align="center">
 
-<h1>BURAK YAVUZ</h1>
-<p>
-  <b>SOFTWARE ENGINEER | SYSTEM ARCHITECT</b>
-</p>
-<p>
-  Specializing in Backend Architecture, Data Integrity & Secure Systems Design.
+<h1 style="border-bottom: none;">BURAK YAVUZ</h1>
+<p style="font-size: 1.2rem; font-weight: 500; margin-top: -15px;">
+  BACKEND ARCHITECT & SOFTWARE ENGINEER
 </p>
 
-<p>
-<a href="https://github.com/KULLANICI_ADIN"><img src="https://img.shields.io/badge/Focus-Backend_Engineering-333333?style=flat-square&logoColor=white" alt="Focus" /></a>
-<a href="https://github.com/KULLANICI_ADIN"><img src="https://img.shields.io/badge/Stack-.NET_%2F_C%23-333333?style=flat-square&logoColor=white" alt="Stack" /></a>
-<a href="https://github.com/KULLANICI_ADIN"><img src="https://img.shields.io/badge/Architecture-Clean_%26_Scalable-333333?style=flat-square&logoColor=white" alt="Arch" /></a>
+<p style="max-width: 600px; color: #8b949e;">
+  Kurumsal ölçekli sistem tasarımı, veri güvenliği ve sürdürülebilir mimari üzerine uzmanlaşmış mühendis.
+  <br>
+  Odak noktam: <b>.NET Ekosistemi</b>, <b>Clean Architecture</b> ve <b>Sistem Otomasyonu</b>.
 </p>
 
 </div>
 
 <br>
 
-<h3>// ENGINEERING PHILOSOPHY</h3>
-<hr>
+<table width="100%" style="border: none;">
+<tr>
+
+<td width="55%" valign="top" style="border: none; padding-right: 20px;">
+
+<h3 style="border-bottom: 2px solid #30363d; padding-bottom: 5px;">// ENGINEERING APPROACH</h3>
 
 <p>
-Bir yazılımın değeri, yazdığı kod satırıyla değil, çözdüğü problemin karmaşıklığı ve sunduğu çözümün sürdürülebilirliği ile ölçülür. Mühendislik yaklaşımım, <b>"çalışan kod"</b> üretmekten öte, <b>"yaşayan sistemler"</b> tasarlamak üzerine kuruludur.
+Bir sistemin başarısı, karmaşıklığı ne kadar iyi yönettiği ile ölçülür. Yazılım geliştirme sürecinde <b>tahminlere değil, metriklere</b> güvenirim.
 </p>
 
 <ul>
-  <li><strong>Deterministik Yapı:</strong> Sistem, aynı girdilere her zaman aynı tepkiyi vermelidir. "Sihirli" çözümler yerine açık ve izlenebilir mimariyi tercih ederim.</li>
-  <li><strong>Güvenlik Odaklı Tasarım:</strong> Güvenlik (AuthN/AuthZ), projenin sonuna eklenen bir eklenti değil, veri modelinin temel yapı taşıdır.</li>
-  <li><strong>Veri Bütünlüğü:</strong> Hız önemlidir, ancak veri tutarlılığı (Data Consistency) her şeyden önce gelir.</li>
+  <li><b>Security by Design:</b> Güvenlik katmanı kodun üzerine değil, temeline inşa edilir.</li>
+  <li><b>Immutability:</b> Veri bütünlüğü, işlem hızından daha kritiktir.</li>
+  <li><b>Automation:</b> İnsan hatasını minimize etmek için süreçler otomatize edilmelidir (Python & Scripting).</li>
 </ul>
 
 <br>
 
-<h3>// TECHNICAL PROFICIENCY</h3>
-<hr>
+<h3 style="border-bottom: 2px solid #30363d; padding-bottom: 5px;">// TECH STACK & TOOLS</h3>
 
-<table>
+<p>
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,visualstudio,sqlserver,azure&perline=6" alt="Backend" />
+  <img src="https://skillicons.dev/icons?i=python,bash,linux&perline=6" alt="Automation" />
+  <img src="https://skillicons.dev/icons?i=react,js,docker,git,github&perline=6" alt="Frontend/Ops" />
+</p>
+
+</td>
+
+<td width="45%" valign="top" style="border: none;">
+
+<h3 style="border-bottom: 2px solid #30363d; padding-bottom: 5px;">// GITHUB ACTIVITY</h3>
+
+<a href="https://github.com/KULLANICI_ADIN">
+  <img src="https://github-readme-stats.vercel.app/api?username=KULLANICI_ADIN&show_icons=true&theme=graywhite&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=79c0ff" alt="Burak's Stats" width="100%" />
+</a>
+
+<br><br>
+
+<a href="https://github.com/KULLANICI_ADIN">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KULLANICI_ADIN&layout=compact&theme=graywhite&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e" alt="Top Languages" width="100%" />
+</a>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<h3 style="border-bottom: 2px solid #30363d; padding-bottom: 5px;">// COMPETENCY MATRIX</h3>
+
+<table width="100%" style="border: none;">
   <tr>
-    <td width="30%" valign="top">
-      <b>CORE STACK (.NET)</b>
-    </td>
-    <td width="70%">
-      Kurumsal ölçekli uygulamaların omurgasını oluşturduğum ana teknoloji yığınıdır.
-      <br><br>
-      <code>C#</code> <code>.NET Core / 6+</code> <code>ASP.NET Web API</code> <code>Entity Framework Core</code> <code>LINQ</code> <code>Clean Architecture</code> <code>CQRS Pattern</code> <code>Dependency Injection</code>
+    <td width="25%" style="border: none;"><b>.NET / C# Core</b></td>
+    <td width="75%" style="border: none;">
+      <img src="https://geps.dev/progress/95?color=512bd4&dangerColor=d1242f&warningColor=d67911" alt="C#" width="100%" />
     </td>
   </tr>
   <tr>
-    <td width="30%" valign="top">
-      <b>DATA & INFRASTRUCTURE</b>
-    </td>
-    <td width="70%">
-      Verinin kalıcı, güvenli ve erişilebilir olmasını sağlayan teknolojiler.
-      <br><br>
-      <code>SQL Server (T-SQL)</code> <code>PostgreSQL</code> <code>Redis (Caching)</code> <code>Docker / Containerization</code> <code>CI/CD Pipelines</code>
+    <td width="25%" style="border: none;"><b>System Architecture</b></td>
+    <td width="75%" style="border: none;">
+      <img src="https://geps.dev/progress/90?color=007ec6" alt="Architecture" width="100%" />
     </td>
   </tr>
   <tr>
-    <td width="30%" valign="top">
-      <b>AUTOMATION & SCRIPTING</b>
-    </td>
-    <td width="70%">
-      Sistemin tekrarlayan işlerini otomatize etmek ve veri işlemek için kullandığım araçlar.
-      <br><br>
-      <code>Python</code> <code>Bash / Shell Scripting</code> <code>PowerShell</code> <code>System Automation Tools</code>
+    <td width="25%" style="border: none;"><b>SQL / Data Modeling</b></td>
+    <td width="75%" style="border: none;">
+      <img src="https://geps.dev/progress/85?color=e34c26" alt="SQL" width="100%" />
     </td>
   </tr>
   <tr>
-    <td width="30%" valign="top">
-      <b>FRONTEND INTEGRATION</b>
+    <td width="25%" style="border: none;"><b>Python / Automation</b></td>
+    <td width="75%" style="border: none;">
+      <img src="https://geps.dev/progress/70?color=ffd343" alt="Python" width="100%" />
     </td>
-    <td width="70%">
-      Backend servislerinin tüketildiği arayüz yapılarına hakimiyet.
-      <br><br>
-      <code>React.js</code> <code>JavaScript (ES6+)</code> <code>HTML5 / CSS3</code> <code>RESTful API Design</code>
+  </tr>
+    <tr>
+    <td width="25%" style="border: none;"><b>Frontend Integration</b></td>
+    <td width="75%" style="border: none;">
+      <img src="https://geps.dev/progress/60?color=61dafb" alt="Frontend" width="100%" />
     </td>
   </tr>
 </table>
 
 <br>
+<br>
 
-<h3>// GITHUB ANALYTICS</h3>
-<hr>
-
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=KULLANICI_ADIN&show_icons=false&hide_border=true&title_color=000000&icon_color=000000&text_color=333333&bg_color=ffffff" alt="Stats" />
-  
-  <br><br>
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KULLANICI_ADIN&layout=compact&hide_border=true&title_color=000000&text_color=333333&bg_color=ffffff&hide_title=true" alt="Languages" />
+<div align="center">
+  <a href="https://github.com/KULLANICI_ADIN">
+    <img src="https://img.shields.io/badge/Connect-@burak--yavuzz-2ea44f?style=for-the-badge&logo=github" alt="Connect" />
+  </a>
 </div>
-
-<br>
-<br>
-
-<p align="center" style="font-size: 12px; color: #555;">
-  This profile is automatically generated based on engineering activity.<br>
-  © 2025 Burak Yavuz. All code provided as-is.
-</p>
