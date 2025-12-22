@@ -1,42 +1,51 @@
-# TEKNIK YETKINLIK ANALIZI
+# [Burak Yavuz]
+**Full-Stack Software Engineer & Systems Architect**
 
 ---
 
-### 01. TEMEL PROGRAMLAMA VE FRAMEWORKLER
-Aşağıdaki tablo çekirdek teknolojilerdeki uzmanlık seviyelerini göstermektedir.
+## I. PROFESYONEL ÖZET
+[Buraya 1-2 cümlelik profesyonel tanımınızı yazın. Örn: Verimlilik odaklı, ölçeklenebilir backend sistemleri ve modern kullanıcı deneyimleri üzerine uzmanlaşmış bir geliştirici.]
 
-| TEKNOLOJI | SEVIYE | GÖRSEL DURUM | DENEYIM |
+* **Odak Alanları:** Dağıtık Sistemler, UI/UX Performansı, API Tasarımı
+* **İletişim:** [info@teknovial.fun]
+
+---
+
+## II. TEKNIK YETKINLIK MATRISI
+Uzmanlık alanlarının teorik ve pratik derinlik analizi.
+
+| DISIPLIN | SEVIYE | YETKINLIK GÖRSELİ | UZMANLIK |
 | :--- | :---: | :--- | :--- |
-| **C# / .NET** | 90% | ![Progress](https://geps.dev/progress/90?width=160&strokeWidth=8&color=333333) | Senior |
-| **Python** | 85% | ![Progress](https://geps.dev/progress/85?width=160&strokeWidth=8&color=333333) | Expert |
-| **TypeScript** | 70% | ![Progress](https://geps.dev/progress/70?width=160&strokeWidth=8&color=333333) | Intermediate |
-| **SQL** | 75% | ![Progress](https://geps.dev/progress/75?width=160&strokeWidth=8&color=333333) | Advanced |
+| **Backend Architecture** | 95% | ![Progress](https://geps.dev/progress/95?width=250&strokeWidth=12&color=1a1a1a) | Senior |
+| **System Security** | 80% | ![Progress](https://geps.dev/progress/80?width=250&strokeWidth=12&color=1a1a1a) | Advanced |
+| **Frontend Development** | 75% | ![Progress](https://geps.dev/progress/75?width=250&strokeWidth=12&color=1a1a1a) | Intermediate |
+| **Cloud & DevOps** | 65% | ![Progress](https://geps.dev/progress/65?width=250&strokeWidth=12&color=1a1a1a) | Intermediate |
 
 ---
 
-### 02. TEKNOLOJI YIĞINI VE ARAÇLAR
-Hızlıca düzenlenebilir, profesyonel ikon setleri.
+## III. TEKNOLOJI EKOSISTEMI
+Aktif olarak kullanılan araçlar ve entegrasyonlar.
 
-**Geliştirme Ortamı & Araçlar**
-![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=flat&logo=visual-studio&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+**Diller & Frameworkler**
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-**Veritabanı & Altyapı**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
----
-
-### 03. GITHUB ISTATISTIKLERI
-| KATKI ANALIZI | DIL DAĞILIMI |
-| :--- | :--- |
-| <img src="https://github-readme-stats.vercel.app/api?username=KULLANICI_ADINIZ&show_icons=true&theme=flat&hide_border=true&title_color=333&text_color=666&icon_color=333" width="400" /> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KULLANICI_ADINIZ&layout=compact&theme=flat&hide_border=true&title_color=333&text_color=666" width="300" /> |
+**Altyapı & Veri**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 ---
-<div align="right">
-Professional Portfolio © 2025
+
+## IV. AKTIF PROJELER VE ARAŞTIRMALAR
+| PROJE | AÇIKLAMA | DURUM |
+| :--- | :--- | :--- |
+| **Core Security Suite** | Dosya ve şifreleme güvenliği üzerine Python tabanlı CLI aracı. | *Geliştirme Aşamasında* |
+| **Avalonia FTP Client** | Modern ve yüksek performanslı masaüstü FTP istemcisi. | *Beta* |
+| **Microservice Patterns** | Dağıtık mimariler üzerine vaka çalışmaları ve örnekler. | *Tamamlandı* |
+
+<div align="center">
+  <sub>Yazılım Mühendisliği Portfolyosu • 2025</sub>
 </div>
