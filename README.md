@@ -69,8 +69,9 @@
 ### Frontend & Mobile
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![React Native](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![HTML](https://img.shields.io/badge/Html-35495E?style=for-the-badge&logo=html&logoColor=4FC08D)
+![CSS](https://img.shields.io/badge/Css-35495E?style=for-the-badge&logo=css&logoColor=4FC08D)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Javascript](https://img.shields.io/badge/Javascript-3178C6?style=for-the-badge&logo=javascript&logoColor=white)
 
@@ -85,8 +86,8 @@
 ## V. GITHUB PERFORMANCE METRICS
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=burak-yavuzz&show_icons=true&theme=transparent&hide_border=true&title_color=000000&icon_color=000000&text_color=fff" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=burak-yavuzz&layout=compact&theme=transparent&hide_border=true&title_color=000000&text_color=fff" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=burak-yavuzz&show_icons=true&theme=transparent&hide_border=true&title_color=fff&icon_color=fff&text_color=fff" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=burak-yavuzz&layout=compact&theme=transparent&hide_border=true&title_color=fff&text_color=fff" />
 </div>
 
 ---
