@@ -3,7 +3,7 @@
 # BURAK YAVUZ
 **FULL-STACK SOFTWARE ENGINEER & SYSTEMS ARCHITECT**
 
-[![Website](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/burak-yavuzz)
+[![Website](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/burak-yavuz-785452378/)
 [![Portfolio](https://img.shields.io/badge/EMAIL-CONTACT-000000?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:info@teknovial.fun)
 [![GitHub](https://img.shields.io/badge/GITHUB-PROFILE-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/burak-yavuzz)
 
@@ -69,12 +69,15 @@
 ### Frontend & Mobile
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![React Native](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Javascript](https://img.shields.io/badge/Javascript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
 ### Infrastructure & Data
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MSSQL](https://img.shields.io/badge/MSSQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![MYSQL](https://img.shields.io/badge/MYSQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-1C1C1C?style=for-the-badge&logo=supabase&logoColor=3ECF8E)
 
 ---
@@ -82,8 +85,8 @@
 ## V. GITHUB PERFORMANCE METRICS
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=burak-yavuzz&show_icons=true&theme=transparent&hide_border=true&title_color=000000&icon_color=000000&text_color=333333" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=burak-yavuzz&layout=compact&theme=transparent&hide_border=true&title_color=000000&text_color=333333" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=burak-yavuzz&show_icons=true&theme=transparent&hide_border=true&title_color=000000&icon_color=000000&text_color=fff" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=burak-yavuzz&layout=compact&theme=transparent&hide_border=true&title_color=000000&text_color=fff" />
 </div>
 
 ---
